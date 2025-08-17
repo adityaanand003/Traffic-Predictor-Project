@@ -108,7 +108,7 @@ def evaluate_model(model, X_test, y_test, model_name):
     buf.seek(0)
     
     # Display the plot
-    plt.show() # <--- ADDED THIS LINE
+    plt.show() 
     plt.close() # Close the plot to free memory
 
     return buf.getvalue()
